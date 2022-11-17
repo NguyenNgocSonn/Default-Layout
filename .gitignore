@@ -1,0 +1,72 @@
+##### OSX
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+##### Windows
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+##### Sublime Text
+# cache files for sublime text
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+*.sublime-project
+*.sublime-workspace
+
+# Editors
+.vscode
+.idea
+../.idea
+
+# temporary / auto generate folder
+.sass-cache
+.tmp
+.edm
+html
+build
+dist
+locales-dist
+products-images
+api-docs
+stage
+
+# Bower and NPM
+node_modules
+bower_components
+npm-debug.log
+package-log.json
+
+# Log
+logs
+$APP_ERR
+$APP_LOG
+
+# Environment Files
+*.env
+package.sh
+*.zip

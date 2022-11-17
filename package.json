@@ -1,0 +1,49 @@
+{
+  "name": "sia-edm",
+  "version": "1.0.0",
+  "description": "SIA EDM",
+  "scripts": {
+    "start": "gulp dev",
+    "clean": "gulp clean",
+    "mail": "gulp mail",
+    "publish": "gulp publish"
+  },
+  "keywords": [
+    "nodejs",
+    "handlebars"
+  ],
+  "author": "KyberOSC",
+  "license": "MIT",
+  "sasslintConfig": ".sass-lint.yml",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "gulp-eslint": "^6.0.0",
+    "gulp-sass-lint": "^1.4.0"
+  },
+  "dependencies": {
+    "@babel/core": "^7.7.7",
+    "@babel/node": "^7.7.7",
+    "@babel/plugin-transform-runtime": "^7.7.6",
+    "@babel/polyfill": "^7.7.0",
+    "@babel/preset-env": "^7.7.7",
+    "@babel/register": "^7.7.7",
+    "@babel/runtime": "^7.7.7",
+    "aws-sdk": "^2.604.0",
+    "browser-sync": "^2.26.7",
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-compile-handlebars": "^0.6.1",
+    "gulp-html-minifier": "^0.1.8",
+    "gulp-mail": "^0.3.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^4.0.2",
+    "handlebars": "^4.7.0",
+    "handlebars-layouts": "^3.1.4",
+    "handlebars-utils": "^1.0.6",
+    "html-minifier": "^4.0.0",
+    "lodash": "^4.17.15",
+    "merge-stream": "^2.0.0",
+    "minimist": "^1.2.0",
+    "nconf": "^0.10.0"
+  }
+}
